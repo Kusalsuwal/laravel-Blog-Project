@@ -10,6 +10,7 @@
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
                     <form id="login-form" class="form" action="{{ route('Slogin') }}" method="POST">
+                        <!-- <input type="hidden" name="type" value="admin"> -->
                         @csrf
                             <h3 class="text-center text-info">Login</h3>
                             <div class="form-group">
